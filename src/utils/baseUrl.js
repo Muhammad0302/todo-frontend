@@ -1,3 +1,3 @@
 export const baseUrl = () => {
-	return "http://localhost:5000/api";
+	return "http://178.79.165.166:5000/api";
 };
