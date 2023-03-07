@@ -12,10 +12,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Install OpenSSL
+        run: sudo apt-get install openssl
+
       - name: Install dependencies
-        run: |
-          sudo apt-get install libssl1.1
-          npm install
+        run: sudo apt-get install libssl1.1 && npm install
 
       - name: Build
         run: npm run build
