@@ -10,6 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
 	return (
 		<Router>
+			{/* Routing goes here */}
 			<div className="container">
 				<Nav />
 				<Routes />
