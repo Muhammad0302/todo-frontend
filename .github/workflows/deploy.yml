@@ -16,8 +16,7 @@ jobs:
         run: sudo apt-get install openssl
 
       - name: Install dependencies
-        run:  npm install react-scripts@latest
-        run: sudo apt-get install libssl1.1 && npm install
+        run: sudo apt-get install libssl1.1 npm install react-scripts@latest npm install
 
       - name: Build
         run: npm run build
